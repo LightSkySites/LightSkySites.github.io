@@ -99,11 +99,12 @@ ignore:
 theme: landscape
 
 # Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
+
 postmap:
   xml_path: 'locations.xml'
   map_page_stub: 'map'
   map_page_title: 'Im the map, Im the map...'
   google_maps_api_key: AIzaSyDrKZfwRhMyfjDimrH2R9zILBm3CMNCdTE
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
